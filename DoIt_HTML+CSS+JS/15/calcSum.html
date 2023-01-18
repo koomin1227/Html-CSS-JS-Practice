@@ -6,6 +6,16 @@
 	<title>1부터 n까지 더하기</title>
 </head>
 <body>
-
+	<script>
+		function calcSum(n){
+			var tot=0;
+			for(let i=1;i<=n;i++){
+				tot+=i;
+			}
+			document.write(tot);
+ 		}
+		var n=prompt("숫자 입력");
+		calcSum(n);
+	</script>
 </body>
 </html>

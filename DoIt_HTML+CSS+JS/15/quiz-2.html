@@ -6,6 +6,21 @@
 	<title>연습문제 2</title>
 </head>
 <body>
-	
+	<script>
+		function compare(x,y){
+			if(x===y){
+				alert(x+"="+y);
+			}
+			else if(x<y){
+				alert(y+">"+x);
+			}
+			else{
+				alert(x+"<"+y);
+			}
+		}
+		var x=parseInt(prompt("input x"));
+		var y=parseInt(prompt("input y"));
+		compare(x,y);
+	</script>
 </body>
 </html>
